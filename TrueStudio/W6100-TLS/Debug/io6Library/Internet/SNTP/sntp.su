@@ -1,0 +1,7 @@
+sntp.c:222:6:printf_datetime_str	104	static
+sntp.c:237:10:get_datetime_str	104	static
+sntp.c:254:8:get_seconds_from_ntp_server	16	static
+sntp.c:279:6:SNTP_init	8	static
+sntp.c:314:8:SNTP_run	48	static
+sntp.c:449:6:calcdatetime	56	static
+sntp.c:535:8:changedatetime_to_seconds	24	static

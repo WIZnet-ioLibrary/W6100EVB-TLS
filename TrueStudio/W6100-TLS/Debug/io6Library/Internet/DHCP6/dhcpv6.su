@@ -1,0 +1,15 @@
+dhcpv6.c:188:6:InitDhcpOption	0	static
+dhcpv6.c:200:6:AppendDhcpOption	12	static
+dhcpv6.c:218:6:DumpDhcpOption	24	static
+dhcpv6.c:235:6:DHCP_Option_Select	0	static
+dhcpv6.c:275:6:send_DHCP_SOLICIT	40	static
+dhcpv6.c:392:9:send_DHCP_REQUEST	104	static
+dhcpv6.c:601:9:send_DHCP_INFOREQ	48	static
+dhcpv6.c:690:8:parseDHCPMSG	176	static
+dhcpv6.c:1036:9:DHCP_run2	16	static
+dhcpv6.c:1074:9:DHCP_run	16	static
+dhcpv6.c:1165:6:DHCP_stop	8	static
+dhcpv6.c:1261:6:reset_DHCP_timeout	0	static
+dhcpv6.c:1176:9:check_DHCP_timeout	16	static
+dhcpv6.c:1228:6:DHCP_init	24	static
+dhcpv6.c:1272:6:DHCP_time_handler	0	static

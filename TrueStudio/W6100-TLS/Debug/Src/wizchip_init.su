@@ -1,0 +1,14 @@
+wizchip_init.c:54:9:W6100SpiReadByte	24	static
+wizchip_init.c:74:6:W6100SpiWriteByte	32	static
+wizchip_init.c:228:13:W6100CsEnable	0	static
+wizchip_init.c:241:13:W6100CsDisable	0	static
+wizchip_init.c:91:9:W6100SpiReadBurst	0	static
+wizchip_init.c:122:6:W6100SpiWriteBurst	0	static
+wizchip_init.c:156:6:W6100BusWriteByte	0	static
+wizchip_init.c:161:10:W6100BusReadByte	0	static
+wizchip_init.c:166:6:W6100BusWriteBurst	0	static
+wizchip_init.c:202:6:W6100BusReadBurst	0	static
+wizchip_init.c:254:13:W6100ResetAssert	0	static
+wizchip_init.c:267:13:W6100ResetDeassert	0	static
+wizchip_init.c:280:6:W6100Reset	8	static
+wizchip_init.c:7:6:W6100Initialze	40	static

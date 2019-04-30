@@ -109,7 +109,7 @@ static void MX_GPIO_Init(void);
 static void MX_SPI2_Init(void);
 static void MX_USART1_UART_Init(void);
 /* USER CODE BEGIN PFP */
-unsigned char gServer_IP[4] = {192,168,0,5};
+unsigned char gServer_IP[4] = {192,168,0,2};
 unsigned char ethBuf0[ETH_MAX_BUF_SIZE];
 uint8_t rxData[2];
 #ifdef KEIL
@@ -224,25 +224,25 @@ int main(void)
 	loopback_tcps(1, data_buf, 5001, AS_IPV4);
 #endif
 
-    len = wiz_tls_read(&tlsContext, ethBuf0, ETH_MAX_BUF_SIZE);
+	len = wiz_tls_read(&tlsContext, ethBuf0, ETH_MAX_BUF_SIZE);
 
-    if(len > 0)
-    {
-      printf("%s : %d \r\n",ethBuf0, len);
-      /*  Write data to the SSL channel  */
-      wiz_tls_write(&tlsContext, ethBuf0, len);
-    }
+	if(len > 0)
+	{
+		printf("%s : %d \r\n",ethBuf0, len);
+		/*  Write data to the SSL channel  */
+		wiz_tls_write(&tlsContext, ethBuf0, len);
+	}
 
-    if(strncmp((char *)ethBuf0,"end",3)==0)
-    {
+	if(strncmp((char *)ethBuf0,"end",3)==0)
+	{
 
-    /*  Send close notify  */
-    if(wiz_tls_close_notify(&tlsContext) == 0)
-      printf("SSL closed\r\n");
+	/*  Send close notify  */
+	if(wiz_tls_close_notify(&tlsContext) == 0)
+		printf("SSL closed\r\n");
 
-    /*  Free tls context  */
-    wiz_tls_deinit(&tlsContext);
-    }
+	/*  Free tls context  */
+	wiz_tls_deinit(&tlsContext);
+	}
   }
 
   /* USER CODE END 3 */

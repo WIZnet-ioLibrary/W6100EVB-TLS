@@ -1,3 +1,0 @@
-loopback.c:17:9:loopback_tcps	32	static
-loopback.c:171:9:loopback_tcpc	40	static
-loopback.c:321:9:loopback_udps	40	static

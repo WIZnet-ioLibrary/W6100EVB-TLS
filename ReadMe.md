@@ -18,7 +18,7 @@ best fits for low-end Non-OS devices connecting to Ethernet for the Internet of 
   - connecting Micro usb.
   - connecting Ethernet cable. <br>
 <p align="center">
-  <img width="60%" src="https://wizwiki.net/wiki/lib/exe/fetch.php?w=600&tok=eabde4&media=products:w6100:w6100_evb:w6100-evb_callout.png" />
+  <img width="60%" src="https://docs.wiznet.io/assets/images/w6100-evb_callout-d5d88d99555cd8b78d6a8327b849cd58.png" />
 </p>
 
 ## Software Environment
